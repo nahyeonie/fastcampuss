@@ -56,3 +56,6 @@ context2 | context2
 context3 | context3
 
 ~~Strike through!~~
+
+:poop:
+:octocat:
