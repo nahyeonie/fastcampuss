@@ -54,3 +54,5 @@ title1 | title2
 context1 | context2
 context2 | context2
 context3 | context3
+
+~~Strike through!~~
