@@ -1,0 +1,68 @@
+html{
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
+body{
+  background: url("cat.gif") no-repeat 100% 100% fixed ;
+  background-size: auto;
+  overflow: scroll;
+}
+.me{
+  margin-left: 60px;
+  margin-top: 50px;
+  font-size: 1.6em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.about{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.2em;
+}
+
+.self{
+  line-height: 1.7em;
+}
+.social img{
+  width: 70px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.bold{
+  font-family: 'Francois One', sans-serif;
+  margin-right: 10px;
+  overflow: hidden;
+
+}
+.u{
+  position: relative;
+  width: 600px;
+  height: 50px;
+}
+.u::after{
+  content:'';
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background-color: silver;
+  transition: all .5s;
+}
+.u:hover::after{
+  right:0;
+}
+.text{
+  position: absolute;;
+  left: 500px;
+  bottom: 250px;
+
+}
+.quote{
+  font-family: 'Shadows Into Light', cursive;
+  position: absolute;
+  bottom: 430px;
+  left: 600px;
+  font-size: 1.6em;
+  line-height: 1.6em;
+
+}
